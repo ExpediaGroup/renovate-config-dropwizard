@@ -1,0 +1,11 @@
+{
+  "description": "Special rules covering patch version updates.",
+  "packageRules": [
+    {
+      "updateTypes": [
+        "patch"
+      ],
+      "commitMessagePrefix": "Fix:"
+    }
+  ]
+}

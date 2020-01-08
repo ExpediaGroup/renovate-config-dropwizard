@@ -1,0 +1,27 @@
+{
+    "description": "Default Renovate config for dropwizard bundles",
+    "extends": [
+        "config:base",
+        "github>homeaway/renovate-config-dropwizard:majorDependencies",
+        "github>homeaway/renovate-config-dropwizard:minorDependencies",
+        "github>homeaway/renovate-config-dropwizard:patchDependencies"
+    ],
+    "masterIssue": true,
+    "prConcurrentLimit": 3,
+    "prHourlyLimit": 0,
+    "branchPrefix": "renovate-",
+    "semanticCommits": false,
+    "stabilityDays": 7,
+    "rebaseStalePrs": false,
+    "rebaseConflictedPrs": false,
+    "maven": {
+        "enabled": true
+    },
+    "packageRules": [
+        {
+            "managers": [
+                "maven"
+            ]
+        }
+    ]
+}

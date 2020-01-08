@@ -1,0 +1,11 @@
+{
+  "description": "Special rules covering minor version updates.",
+  "packageRules": [
+    {
+      "updateTypes": [
+        "minor"
+      ],
+      "commitMessagePrefix": "Feature:"
+    }
+  ]
+}

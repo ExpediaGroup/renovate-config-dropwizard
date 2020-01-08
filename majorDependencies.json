@@ -1,0 +1,18 @@
+{
+  "description": "Special rules covering major version updates.",
+  "packageRules": [
+    {
+      "updateTypes": [
+        "major"
+      ],
+      "stabilityDays": 30,
+      "labels": [
+        "UPDATE-MAJOR"
+      ],
+      "sechedule": [
+        "on the first monday of the month"
+      ],
+      "commitMessagePrefix": "Breaking:"
+    }
+  ]
+}
