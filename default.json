@@ -2,9 +2,9 @@
     "description": "Default Renovate config for dropwizard bundles",
     "extends": [
         "config:base",
-        "github>homeaway/renovate-config-dropwizard:majorDependencies",
-        "github>homeaway/renovate-config-dropwizard:minorDependencies",
-        "github>homeaway/renovate-config-dropwizard:patchDependencies"
+        "github>ExpediaGroup/renovate-config-dropwizard:majorDependencies",
+        "github>ExpediaGroup/renovate-config-dropwizard:minorDependencies",
+        "github>ExpediaGroup/renovate-config-dropwizard:patchDependencies"
     ],
     "masterIssue": true,
     "prConcurrentLimit": 3,

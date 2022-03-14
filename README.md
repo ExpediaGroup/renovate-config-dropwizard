@@ -6,18 +6,18 @@ Each named preset is its own file. For example the `majorDependencies.json` is a
 
 ## How to use a preset
 
-In your renovate.json file reference a preset in an extends array like "github>homeaway/renovate-config-dropwizard", for example:
+In your renovate.json file reference a preset in an extends array like "github>ExpediaGroup/renovate-config-dropwizard", for example:
 
 1) This loads the default.json preset
 
 ``` json
-"extends": ["github>homeaway/renovate-config-dropwizard"]
+"extends": ["github>ExpediaGroup/renovate-config-dropwizard"]
 ```
 
 2) This loads a named preset in this case majorDependencies preset
 
 ``` json
-"extends": ["github>homeaway/renovate-config-dropwizard:majorDependencies"]
+"extends": ["github>ExpediaGroup/renovate-config-dropwizard:majorDependencies"]
 ```
 
 # Legal
